@@ -18,6 +18,8 @@ A PowerShell GUI tool for analysing and importing bulk users into Active Directo
 - Domain Admin or delegated permissions
 
 ## How It Works
+
+Right-click and Run with Powershell or use Powershell ISE or Visual Studio Code
 1. Use the Browse button to the CSV file containing user data
 2. Click on Load and view the data in the Preview Window
 3. Use the Connect to AD button (if used on domain controller credentials are auto applied)
@@ -39,7 +41,7 @@ A PowerShell GUI tool for analysing and importing bulk users into Active Directo
 Download or clone the repository and run the main PowerShell script:
 
 ```powershell
-.\Import-ADUsers.ps1
+.\ADImportTool-BetaV1.ps1
 
 
 ⚠️ Make sure the PowerShell code block is correctly fenced.

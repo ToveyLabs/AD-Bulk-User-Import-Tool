@@ -107,7 +107,7 @@ $SplitContainer.Panel2.Controls.Add($RightScrollPanel)
 
 # Import options group
 $OptionsGroup = New-Object System.Windows.Forms.GroupBox
-$OptionsGroup.Text = "3. Import Configuration"
+$OptionsGroup.Text = "4. Import Configuration"
 $OptionsGroup.Location = New-Object System.Drawing.Point(10, 10)
 $OptionsGroup.Size = New-Object System.Drawing.Size(320, 410)  # Increased height for all controls
 $OptionsGroup.Anchor = "Left,Right,Top"
@@ -318,7 +318,7 @@ $CheckboxPanel.Controls.Add($TestModeCheck)
 
 # ===== AD CONNECTION GROUP ===== #
 $ADConnectionGroup = New-Object System.Windows.Forms.GroupBox
-$ADConnectionGroup.Text = "Active Directory Connection"
+$ADConnectionGroup.Text = "3. Active Directory Connection"
 $ADConnectionGroup.Location = New-Object System.Drawing.Point(10, 430)
 $ADConnectionGroup.Size = New-Object System.Drawing.Size(320, 110)
 $ADConnectionGroup.Anchor = "Left,Right,Top"
@@ -360,7 +360,7 @@ $ADConnectionGroup.Controls.Add($CurrentOULabel)
 
 # ===== ACTIONS GROUP ===== #
 $OptionsGroup2 = New-Object System.Windows.Forms.GroupBox
-$OptionsGroup2.Text = "4. Actions"
+$OptionsGroup2.Text = "5. Actions"
 $OptionsGroup2.Location = New-Object System.Drawing.Point(10, 550)
 $OptionsGroup2.Size = New-Object System.Drawing.Size(320, 150)
 $OptionsGroup2.Anchor = "Left,Right,Top"

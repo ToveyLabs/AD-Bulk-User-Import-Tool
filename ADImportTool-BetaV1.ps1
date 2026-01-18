@@ -334,20 +334,20 @@ $ADConnectionGroup.Controls.Add($ADStatusLabel)
 $ConnectADButton = New-Object System.Windows.Forms.Button
 $ConnectADButton.Text = "Connect to AD"
 $ConnectADButton.Location = New-Object System.Drawing.Point(15, 45)
-$ConnectADButton.Size = New-Object System.Drawing.Size(90, 25)
+$ConnectADButton.Size = New-Object System.Drawing.Size(95, 25)
 $ADConnectionGroup.Controls.Add($ConnectADButton)
 
 $BrowseOUButton = New-Object System.Windows.Forms.Button
 $BrowseOUButton.Text = "Browse OU..."
 $BrowseOUButton.Location = New-Object System.Drawing.Point(110, 45)
-$BrowseOUButton.Size = New-Object System.Drawing.Size(90, 25)
+$BrowseOUButton.Size = New-Object System.Drawing.Size(95, 25)
 $BrowseOUButton.Enabled = $false
 $ADConnectionGroup.Controls.Add($BrowseOUButton)
 
 $DisconnectADButton = New-Object System.Windows.Forms.Button
 $DisconnectADButton.Text = "Disconnect"
 $DisconnectADButton.Location = New-Object System.Drawing.Point(205, 45)
-$DisconnectADButton.Size = New-Object System.Drawing.Size(90, 25)
+$DisconnectADButton.Size = New-Object System.Drawing.Size(95, 25)
 $DisconnectADButton.Enabled = $false
 $ADConnectionGroup.Controls.Add($DisconnectADButton)
 
@@ -3213,4 +3213,5 @@ Update-ADConnectionUI
 $ImportButton.Enabled = $false
 
 # ===== SHOW THE FORM ===== #
+
 [void]$MainForm.ShowDialog()

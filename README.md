@@ -34,3 +34,29 @@ A PowerShell GUI tool for analysing and importing bulk users into Active Directo
 14. Optional tick Auto-export passwords on completion
 15. If happy then click on Import to import users
 16. Export CSV to view data.
+
+## Usage
+Download or clone the repository and run the main PowerShell script:
+
+```powershell
+.\Import-ADUsers.ps1
+
+
+⚠️ Make sure the PowerShell code block is correctly fenced.
+
+---
+
+### Safety Note (Very Important)
+
+```markdown
+## Important Notes
+- Test in a lab environment before using in production
+- Ensure you have appropriate permissions in Active Directory
+- No credentials are stored by the tool
+
+## License
+MIT License
+
+## Author
+Graham Tovey
+

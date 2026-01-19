@@ -3,6 +3,7 @@ A PowerShell GUI tool for analysing and importing bulk users into Active Directo
 
 ## Features
 - Accepts malformed or inconsistently formatted CSV files
+- Generates correct headers required for import
 - Analyses and prepares user data before import
 - GUI-based selection of target OU
 - GUI-based selection of security group

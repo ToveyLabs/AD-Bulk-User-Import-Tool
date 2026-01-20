@@ -1,6 +1,9 @@
 # AD-Bulk-User-Import-Tool
 A PowerShell GUI tool for analysing and importing bulk users into Active Directory from CSV files, even when the source data is inconsistently formatted.
 
+<img width="1481" height="952" alt="image" src="https://github.com/user-attachments/assets/71d2a1e1-fa76-41c1-bee1-3de698f0caf8" />
+
+
 ## Features
 - Accepts malformed or inconsistently formatted CSV files
 - Generates correct headers required for import

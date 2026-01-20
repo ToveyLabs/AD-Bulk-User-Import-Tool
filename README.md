@@ -23,7 +23,7 @@ A PowerShell GUI tool for analysing and importing bulk users into Active Directo
 
 ## How It Works
 
-Right-click and Run with Powershell or use Powershell ISE or Visual Studio Code
+Right-click and Run with Powershell or use Powershell ISE or Visual Studio Code,
 Maximise the screen and move the vertical bar to the left to view all buttons (this needs work)
 
 1. Use the Browse button to the CSV file containing user data
